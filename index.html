@@ -1,0 +1,20 @@
+<html>
+  <link rel="stylesheet" href="./css/main.css" />
+  <body>
+    <h1>Site Editor</h1>
+    <button data-hook="erase-site-entries">Erase Site Entries</button>
+    <form data-hook="site-entry-form">
+      <label for="siteInput">SITE:</label>
+      <input type="text" name="siteInput" id="siteInput" />
+      <label for="htmlInput">HTML:</label>
+      <textarea name="htmlInput" id="htmlInput" cols="30" rows="5"></textarea>
+      <label for="cssInput">CSS:</label>
+      <textarea name="cssInput" id="cssInput" cols="30" rows="5"></textarea>
+      <label for="jsInput">JS:</label>
+      <textarea name="jsInput" id="jsInput" cols="30" rows="5"></textarea>
+      <button type="submit">Save Site Profile</button>
+    </form>
+    <div data-hook="existing-sites"></div>
+    <script type="module" src="main.js" defer></script>
+  </body>
+</html>

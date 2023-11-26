@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 800px;
+  padding: 1rem;
+  margin: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

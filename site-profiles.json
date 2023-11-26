@@ -1,0 +1,25 @@
+{
+  "sites": [
+    {
+      "site-name": "Site 1",
+      "site-url": "https://example.com/site1",
+      "siteHTML": "<div>Hello, World!</div>",
+      "siteCSS": "body { background-color: #f0f0f0; }",
+      "siteJS": "console.log('Hello from JavaScript!');"
+    },
+    {
+      "site-name": "Site 2",
+      "site-url": "https://example.com/site2",
+      "siteHTML": "<h1>Welcome to My Site</h1>",
+      "siteCSS": "h1 { color: #3498db; }",
+      "siteJS": "alert('Welcome!');"
+    },
+    {
+      "site-name": "Site 3",
+      "site-url": "https://example.com/site3",
+      "siteHTML": "<p>This is a sample page.</p>",
+      "siteCSS": "p { font-size: 16px; }",
+      "siteJS": "console.log('Sample JavaScript code.');"
+    }
+  ]
+}
